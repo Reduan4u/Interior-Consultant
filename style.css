@@ -181,13 +181,60 @@ footer {
         flex-direction: column;
     }
 
+    .text-title {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .text-button {
+        font-size: 8px;
+    }
+
+    .image {
+        border-radius: 2px;
+
+    }
+
+    .text-description {
+        font-size: 14px;
+        width: 60%;
+        margin: 20px 0px;
+    }
+
     .container-image-part {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .container-person {
         width: 80%;
         margin: -12% 0 0 17%;
+    }
+
+    .person-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .person-info {
+        padding: 15px 15px;
+        gap: 10px;
+    }
+
+    .person-name {
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .person-profession {
+        font-size: 8px;
+        padding-top: 5px;
+    }
+
+    .person-work {
+        font-size: 16px;
+        padding: 5px 15px 25px 15px;
     }
 
     footer {
